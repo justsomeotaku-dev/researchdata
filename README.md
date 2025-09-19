@@ -9,6 +9,13 @@ ok i think length measurements are worse...
 
 ok so https://en.wikipedia.org/wiki/Metric_prefix make si units a lot easier since u can just use the official si units and leave the rest aside.
 
+TO-DO for the conversion:
+- check for overflow
+- add more units
+- add more categories
+- add examples
+- yea
+
 ```C
 // Fundamental/Quantum time scales
     5.39e-44,            // Planck time
