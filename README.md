@@ -7,6 +7,8 @@ WHY ARE THERE SO MANY TIME UNITS AHHHHHHH and why am i making a converter for th
 
 ok i think length measurements are worse...
 
+ok so https://en.wikipedia.org/wiki/Metric_prefix make si units a lot easier since u can just use the official si units and leave the rest aside.
+
 ```C
 // Fundamental/Quantum time scales
     5.39e-44,            // Planck time
@@ -309,4 +311,29 @@ ok i think length measurements are worse...
     4.05e-10,       // aluminum lattice constant
     3.57e-10,       // iron lattice constant
     2.87e-10        // tungsten lattice constant
+```
+Bit units
+```C
+    1,                           // bit
+    8,                           // byte
+    1024,                        // kilobit (Kb)
+    8192,                        // kilobyte (KB)
+    1048576,                     // megabit (Mb)
+    8388608,                     // megabyte (MB)
+    1073741824,                  // gigabit (Gb)
+    8589934592,                  // gigabyte (GB)
+    1099511627776,               // terabit (Tb)
+    8796093022208,               // terabyte (TB)
+    1125899906842624,            // petabit (Pb)
+    9007199254740992,            // petabyte (PB)
+    1152921504606846976,         // exabit (Eb)
+    9223372036854775808ULL,      // exabyte (EB)
+    1180591620717411303424ULL,   // zettabit (Zb)
+    9444732965739290427392ULL,   // zettabyte (ZB)
+    1208925819614629174706176ULL, // yottabit (Yb)
+    9671406556917033397649408ULL, // yottabyte (YB)
+    1237940039285380274899124224ULL, // ronnabit (Rb)
+    9903520314283042199193193792ULL, // ronnabyte (RB)
+    1267650600228229401496703205376ULL, // quettabit (Qb)
+    10141204801825835211973625643008ULL  // quettabyte (QB)
 ```
