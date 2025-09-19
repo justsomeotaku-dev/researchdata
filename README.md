@@ -3,6 +3,8 @@
 
 So i gathered all these time units and i'll verify every one of them manually before adding them to my conversion library.
 
+WHY ARE THERE SO MANY TIME UNITS AHHHHHHH and why am i making a converter for them...
+
 ```C
 // Fundamental/Quantum time scales
     5.39e-44,            // Planck time
@@ -105,7 +107,12 @@ So i gathered all these time units and i'll verify every one of them manually be
 // Hindu/Vedic time units (approximate)
     1.296e12,            // kalpa (day of Brahma, ~4.32 billion years)
     3.11e16,             // mahayuga (4.32 million years)
-    
+
+    Satya Yuga: 1,728,000 human years. 
+    Treta Yuga: 1,296,000 human years. 
+    Dvapara Yuga: 864,000 human years. 
+    Kali Yuga: 432,000 human years. 
+
 // Svedberg unit (sedimentation, not time but historically listed)
     1e-13                // svedberg (10^-13 seconds, used in biochemistry)
 ```
