@@ -1,3 +1,9 @@
+
+# Time units
+
+So i gathered all these time units and i'll verify every one of them manually before adding them to my conversion library.
+
+```C
     // Fundamental/Quantum time scales
     5.39e-44,            // Planck time
     1e-23,               // chronon (theoretical quantum time unit)
@@ -102,3 +108,4 @@
     
     // Svedberg unit (sedimentation, not time but historically listed)
     1e-13                // svedberg (10^-13 seconds, used in biochemistry)
+```
