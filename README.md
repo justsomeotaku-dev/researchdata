@@ -5,6 +5,8 @@ So i gathered all these time units and i'll verify every one of them manually be
 
 WHY ARE THERE SO MANY TIME UNITS AHHHHHHH and why am i making a converter for them...
 
+ok i think length measurements are worse...
+
 ```C
 // Fundamental/Quantum time scales
     5.39e-44,            // Planck time
@@ -115,4 +117,196 @@ WHY ARE THERE SO MANY TIME UNITS AHHHHHHH and why am i making a converter for th
 
 // Svedberg unit (sedimentation, not time but historically listed)
     1e-13                // svedberg (10^-13 seconds, used in biochemistry)
+```
+# Length units
+```C
+    // Planck scale and quantum measurements
+    1.616255e-35,   // Planck length
+    5.29177e-11,    // Bohr radius (first Bohr radius of hydrogen)
+    2.8179e-15,     // classical electron radius
+    1.32141e-15,    // Compton wavelength of electron
+    2.10309e-16,    // Compton wavelength of proton
+    8.768e-16,      // proton charge radius
+    0.84184e-15,    // neutron charge radius
+    
+    // Subatomic particles and atomic scale
+    1e-18,          // attometer
+    1e-17,          // 10 attometers
+    1e-16,          // 100 attometers
+    1e-15,          // femtometer (fermi)
+    1e-14,          // 10 femtometers
+    1e-13,          // 100 femtometers
+    1e-12,          // picometer
+    1e-11,          // 10 picometers
+    1e-10,          // angstrom
+    1e-9,           // nanometer
+    1e-8,           // 10 nanometers
+    1e-7,           // 100 nanometers
+    1e-6,           // micrometer (micron)
+    1e-5,           // 10 micrometers
+    1e-4,           // 100 micrometers
+    1e-3,           // millimeter
+    
+    // Metric system - standard units
+    1e-2,           // centimeter
+    1e-1,           // decimeter
+    1.0,            // meter (base unit)
+    1e1,            // decameter (dekameter)
+    1e2,            // hectometer
+    1e3,            // kilometer
+    1e4,            // myriameter
+    1e5,            // 100 kilometers
+    1e6,            // megameter
+    1e7,            // 10 megameters
+    1e8,            // 100 megameters
+    1e9,            // gigameter
+    1e12,           // terameter
+    1e15,           // petameter
+    1e18,           // exameter
+    1e21,           // zettameter
+    1e24,           // yottameter
+    
+    // Imperial/US customary units
+    0.0000254,      // mil (thou)
+    0.0254,         // inch
+    0.3048,         // foot
+    0.9144,         // yard
+    1.8288,         // fathom
+    5.0292,         // rod (pole/perch)
+    20.1168,        // chain
+    201.168,        // furlong
+    1609.344,       // mile (statute mile)
+    4828.032,       // league
+    
+    // Maritime and aviation units
+    1852.0,         // nautical mile
+    1853.184,       // nautical mile (UK)
+    185.2,          // cable length (1/10 nautical mile)
+    219.456,        // cable length (UK)
+    
+    // Historical and regional units
+    0.4572,         // cubit (18 inches)
+    0.508,          // cubit (20 inches)
+    0.6096,         // cubit (24 inches)
+    2.286,          // span (9 inches)
+    0.1016,         // hand (4 inches)
+    0.1143,         // palm (4.5 inches)
+    0.0191,         // digit (0.75 inches)
+    0.0254,         // barleycorn (1/3 inch)
+    0.00423,        // line (1/12 inch)
+    0.000353,       // point (1/72 inch)
+    0.0003515,      // PostScript point
+    0.0003527,      // TeX point
+    0.000352778,    // DTP point
+    
+    // Surveying units
+    0.201168,       // link
+    4.04686,        // surveyor's chain (Gunter's chain)
+    30.48,          // surveyor's rod
+    
+    // Textile and small measurements
+    0.000127,       // denier (textile)
+    0.0001,         // tex (textile)
+    0.01,           // point (typography, 1/72.27 inch)
+    0.000264583,    // pica (1/6 inch)
+    
+    // Atomic and molecular scales
+    1.54e-10,       // carbon-carbon bond length
+    3.4e-10,        // DNA base pair separation
+    2.0e-10,        // typical atomic radius
+    1.4e-10,        // hydrogen atom radius
+    
+    // Biological scales
+    1e-6,           // typical cell diameter
+    5e-6,           // red blood cell diameter
+    1e-5,           // typical bacterium length
+    1e-4,           // typical virus diameter
+    0.1e-3,         // human hair diameter
+    0.05e-3,        // spider silk diameter
+    
+    // Astronomical units
+    6.96e8,         // solar radius
+    1.496e11,       // astronomical unit (AU)
+    4.243e16,       // light-year (precise)
+    9.461e15,       // light-year (approximate)
+    3.0857e16,      // parsec
+    3.0857e19,      // kiloparsec
+    3.0857e22,      // megaparsec
+    3.0857e25,      // gigaparsec
+    
+    // Planetary and cosmic scales
+    6.371e6,        // Earth radius (mean)
+    1.737e6,        // lunar radius (mean)
+    6.9551e7,       // Jupiter radius (equatorial)
+    6.0268e7,       // Saturn radius (equatorial)
+    2.5362e7,       // Neptune radius (equatorial)
+    2.4622e7,       // Uranus radius (equatorial)
+    6.0518e6,       // Venus radius (mean)
+    3.3972e6,       // Mars radius (equatorial)
+    2.4397e6,       // Mercury radius (mean)
+    
+    // Observable universe and large structures
+    4.4e26,         // observable universe diameter
+    3e25,           // typical galaxy cluster diameter
+    1e21,           // typical galaxy diameter
+    3e19,           // typical globular cluster diameter
+    1e17,           // typical stellar nursery diameter
+    1e16,           // Oort cloud diameter
+    1e13,           // heliosphere diameter
+    
+    // Speed of light distances (time-based)
+    2.998e8,        // light-second
+    1.799e10,       // light-minute
+    1.079e12,       // light-hour
+    2.59e13,        // light-day
+    7.77e15,        // light-month
+    
+    // Miscellaneous physical constants as lengths
+    3.862e-13,      // reduced Compton wavelength of electron
+    2.103e-16,      // reduced Compton wavelength of proton
+    1.319e-15,      // reduced Compton wavelength of neutron
+    
+    // Additional imperial subdivisions
+    0.000846667,    // point (1/72 inch, printing)
+    0.00508,        // pica (1/6 inch, printing)
+    0.001,          // point (metric, 1/2835 meter)
+    
+    // Asian traditional units
+    0.303,          // shaku (Japanese foot)
+    0.0303,         // sun (Japanese inch)
+    0.3,            // chi (Chinese foot)
+    0.033,          // cun (Chinese inch)
+    1.8,            // ken (Japanese fathom)
+    109.09,         // cho (Japanese)
+    3927.27,        // ri (Japanese league)
+    
+    // Specialized scientific units
+    1e-24,          // yoctometer
+    1e-21,          // zeptometer
+    1e21,           // zettameter
+    1e24,           // yottameter
+    
+    // Nuclear and particle physics
+    1e-15,          // fermi (femtometer)
+    1.2e-15,        // nuclear radius unit
+    10e-15,         // barn^(1/2) (cross-section unit)
+    
+    // String theory and theoretical physics
+    1.616e-35,      // Planck length (theoretical minimum)
+    
+    // Computer/digital units
+    0.000127,       // pixel (at 200 DPI)
+    0.000254,       // pixel (at 100 DPI)
+    0.0003528,      // pixel (at 72 DPI)
+    
+    // Wavelength references
+    380e-9,         // violet light wavelength
+    750e-9,         // red light wavelength
+    21e-2,          // hydrogen line (21 cm)
+    
+    // Crystal lattice constants
+    5.64e-10,       // silicon lattice constant
+    4.05e-10,       // aluminum lattice constant
+    3.57e-10,       // iron lattice constant
+    2.87e-10        // tungsten lattice constant
 ```
