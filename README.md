@@ -16,6 +16,8 @@ TO-DO for the conversion:
 - add examples
 - yea
 
+edit: im giving up since i am too inexperienced in handling large numbers in C....
+
 ```C
 // Fundamental/Quantum time scales
     5.39e-44,            // Planck time
